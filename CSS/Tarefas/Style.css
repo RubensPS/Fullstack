@@ -1,7 +1,7 @@
 /*Documento CSS para o arquivo Index.html, a página principal do curriculo*/
 header {
     background-color: #eaf6f6;
-    height: 830px;
+    height: 850px;
     margin-bottom: 40px;
 }
 
@@ -9,7 +9,7 @@ h1 {
     margin: 0;
     padding: 30px;
     text-align: center;
-    font-family: Brush Script MT;
+    font-family: "Sacramento", cursive;
     color: #66bfbf;
     font-size: 90px
 }
@@ -39,14 +39,14 @@ p {
 #top-cloud {
     display: block;
     position: relative;
-    left: 1050px;
+    left: 1300px;
     padding: 40px;
     width: 220px;
 }
 
 #middle-cloud {
     position: relative;
-    left: 300px;
+    left: 500px;
     top: 50px;
     margin: 0;
     padding: 0;
