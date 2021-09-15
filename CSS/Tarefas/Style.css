@@ -1,0 +1,102 @@
+header {
+    background-color: #eaf6f6;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Brush Script MT;
+    color: #66bfbf;
+    font-size: 80px
+}
+
+h2 {
+    color: #66bfbf;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}
+
+h3 {
+    color:#11999e;
+    font-size: 20px;
+}
+p {
+    font-size: 20px;
+    margin: 0;
+}
+
+#under {
+    text-decoration: underline;
+}
+
+
+#top-cloud {
+    display: block;
+    position: relative;
+    left: 1300px;
+    padding: 40px;
+}
+
+#middle-cloud {
+    position: relative;
+    left: 600px;
+    top: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+#mountain {
+    display: block;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 500px;
+}
+
+.blk-center {
+    text-align: center;
+    display: block;
+}
+
+.foto {
+    width: 180px;
+    margin: 15px;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+#heart {
+    color: red;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 10px;
+    width: 4%;
+}
+
+.separador {
+    margin: 100px;
+}
+
+.subtitulo {
+    font-size: 40px;
+}
+
+.img-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+}
