@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
         <link rel="stylesheet" href="Style.css">
     </head>
     
+    <!--No <header> se encontram os elementos visíveis ao abrir a página. Figuras e apresentação.-->
     <header>
         <img src="imagens/cloud.png" id= "top-cloud" alt="cloud-img">
         <h1>I'm Rubens.</h1>
@@ -16,10 +18,13 @@
         <img src="imagens/mountain.png" id= "mountain" alt="mountain-img">
     </header>
 
+    <!--No <body> estão todos os elementos localizados na página aonde o background é branco. Foi realizada a separação em alguns blocos utilizando o <div>-->
     <body>
+
+        <!--Bloco contendo a foto e a apresentação pessoal.-->
         <div class="blk-center">
             <img class="foto" src="imagens/foto.png" alt="foto-curriculo">
-            <h2 class="subtitulo">Hello.</h2>
+            <h2>Hello.</h2>
             <p class="centralizado">I am a learner at Let's Code and also a computer</p>
             <p class="centralizado">graduate student. I <span id="heart">💓</span> my dogs and I make my</p>
             <p class="centralizado">own jelly.</p>
@@ -29,8 +34,9 @@
             <hr>
         </div>
 
-        <h2 class="subtitulo separador">My Skills.</h2>
+        <h2 class="separador">My Skills.</h2>
 
+        <!--Primeiro bloco das skills. Imagem e texto.-->
         <div class= "img-text-container">
             <div>
                 <img class="foto" src="imagens/program_circle.png" alt="programa-img">
@@ -46,6 +52,7 @@
 
         <div class="separador"></div>
 
+        <!--Segundo bloco das skills. Imagem e texto.-->
         <div class= "img-text-container">
             <div>
                 <h3>Heart Challenge</h3>
@@ -62,20 +69,29 @@
             <hr>
         </div>
 
-        <h2 class="subtitulo separador">Get in Touch</h2>
+        <h2 class="separador">Get in Touch</h2>
 
+        <!--Bloco que antecede o botão de contato.-->
         <div class="blk-center">
             <h3>If you love dogs and codding as much as I do.</h3>
             <p class="centralizado">Love dogs as much as I do? Let's make some small talk!</p>
             <p class="centralizado">We can even create a website together.</p>
         </div>
 
-        <!-- <form action="mailto:rubens_p_souza@hotmail.com" method="POST" enctype="text/plain">
-            <input type="submit"/>
-        </form> -->
-
-
-
+        <!--Botão de link para página de contato, construída com html puro.-->
+        <div class="blk-center">
+            <input class="button" type="button" onclick="location.href='CONTACTME.html'" value="CONTACT ME">
+        </div>
         
     </body>
+
+    <!--Rodapé com mais contatos.-->
+    <footer>
+        <div class="blk-center">
+            <a href="https://www.linkedin.com/in/rubens-ps">LinkedIn</a>
+            <a href="http://www.instagram.com/Rubens_bhz">Instagram</a>
+            <a href="#top">Website</a>
+            <p id="rodape">© 2021 Rubens Souza</p>
+        </div>
+    </footer>
 </html>

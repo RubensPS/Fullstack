@@ -1,0 +1,23 @@
+/*Documento CSS para o CONTACTME.html*/
+body {
+    background-color: #c0c0c0;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 5px;
+    width: 10%;
+}
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: green;
+}
+
+h3 {
+    color: green;
+}
