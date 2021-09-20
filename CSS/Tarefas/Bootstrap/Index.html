@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Zay eCommerce</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+
+    <body>
+
+      <!--Barras de navegação superiores-->
+      <header>
+
+        <!--Menu superior com os links de contato. Foi utilizado navbar bootstrap-->
+        <nav class="navbar navbar-expand-lg menu-contatos nav-m1">
+          <div class="collapse navbar-collapse margin-m1" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <i class="fa fa-envelope icon-align1" aria-hidden="true"></i>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">info@company.com<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <i class="fa fa-phone icon-align1" aria-hidden="true"></i>   
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">010-020-0340</a>
+              </li>
+            </ul>
+          </div>
+
+            <!--Menu superior com os links das redes sociais. Foi utilizado navbar do bootstrap-->
+          <div class="collapse navbar-collapse " id="navbarText">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a href="" class="icon-align2"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item active">
+                <a href="" class="icon-align2"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="icon-align2"><i class="fa fa-twitter" aria-hidden="true"></i></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="icon-align2" href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!--Segundo menu com nome da empresa, links e informações. Foi construído do zero com flexbox-->
+        <div class="menu-container1">
+          <a href="Index.html" class="font-comp">Zay</a>
+          <div class="menu-container2">
+          <a href="Index.html" class="comp-link">Home</a>
+          <a href="" class="comp-link">About</a>
+          <a href="" class="comp-link">Shop</a>
+          <a href="" class="comp-link">Contact</a>
+        </div>
+          <div>
+            <a href=""><i class="fa fa-search comp-link" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-cart-arrow-down comp-link" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-user comp-link" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </header>
+      <!--Fim das barras de navegação superiores-->
+
+      <!--Início da seção dinâmica de anúncios. Feito com bootstrap carousel. Apenas a primeira página possúi conteúdo, devido ao pdf não apresentar as demais-->
+      <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active font-green"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="font-green"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2" class="font-green"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item display-ads">
+              <div class="display-text">
+                <p class="font-comp">Zay <span class="font-thin">eCommerce</span></p>
+                <h2 class="font-thin">Tiny and perfect eCommerce Template</h2>
+                <p>Zay shop is an eCommerce HTML5 CSS template
+                  with latest version of Bootstrap 5 (beta 1).This
+                  template is 100% free provided by <span class="font-green underline">TemplateMo</span>
+                  website. Image credits go to <span class="font-green underline">Freepik Stories</span>,
+                  <span class="font-green underline">Unsplash</span> and <span class="font-green underline">Icons 8</span>.
+                </p>
+              </div>
+              <div>
+                <img class="img-fix" src="imagens/tenis.jpg" alt="First slide">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+      <!--Fim da seção dinâmica de anúncios-->
+
+      <!--Início da seção categorias-->
+      <section>
+        <!--Texto superior-->
+        <div class="category-box">
+          <h1 class="font-thin">Categories of The Month</h1>
+          <p>Excepteur sint occaecat cupidatat non proident, sunt in</p>
+          <p>culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+
+        <!--Flexbox dos itens destacados-->
+        <div class="container-shop">
+          <div class="shop-inner">
+            <img src="imagens/watch.jpg" alt="Watch-image" class="radius">
+            <h3>Watches</h3>
+            <button type="button" class="btn btn-success bt-green">Go Shop</button>
+          </div>
+          <div class="shop-inner">
+            <img src="imagens/shoe.jpg" alt="Shoe-image" class="radius">
+            <h3>Shoes</h3>
+            <button type="button" class="btn btn-success bt-green">Go Shop</button>
+          </div>
+          <div class="shop-inner">
+            <img src="imagens/glasses.jpg" alt="Glasses-image" class="radius">
+            <h3>Accessories</h3>
+            <button type="button" class="btn btn-success bt-green">Go Shop</button>
+          </div>
+        </div>
+      </section>
+      <!--Fim da seção categorias-->
+
+      <!--Início da seção Produtos. Foi utilizado o componente de card do bootstrap-->
+      <section>
+
+        <!--Título e texto do início da seção-->
+        <div class="container-product">
+          <div class="product-block1">
+            <h1 class="font-thin">Featured Product</h1>
+            <p>Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>Excepteur sint occaecat cupidatat non proident.</p>
+          </div>
+
+          <!--Bloco dos cartões-->
+          <div class="product-block2">
+            <!--Primeiro cartão-->
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="imagens/flashlight.jpg" alt="flashlight-image">
+              <div class="star-block">
+                <div>
+                  <i class="fa fa-star full-star"></i>
+                  <i class="fa fa-star full-star"></i>
+                  <i class="fa fa-star full-star"></i>
+                  <i class="fa fa-star empty-star"></i>
+                  <i class="fa fa-star empty-star"></i>
+                </div>
+                <div>
+                  <p>$240.00</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Gym Weight</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in culpa qui officia deserunt.</p>
+                <p class="review">Review (24)</p>
+              </div>
+            </div>
+            <!--Segundo cartão-->
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="imagens/red-watch.jpg" alt="red-watch-image">
+              <div class="star-block">
+                <div>
+                  <i class="fa fa-star full-star"></i>
+                  <i class="fa fa-star full-star"></i>
+                  <i class="fa fa-star full-star"></i>
+                  <i class="fa fa-star empty-star"></i>
+                  <i class="fa fa-star empty-star"></i>
+                </div>
+                <div>
+                  <p>$480.00</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Cloud Nike Shoes</h5>
+                <p class="card-text">Aenean gravida dignissim finibus. Nullam ipsum diam, posuere vitae pharetra sed, commodo ullamcorper.</p>
+                <p class="review">Review (48)</p>
+              </div>
+            </div>
+            <!--Terceiro cartão-->
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="imagens/camera.jpg" alt="camera-image">
+              <div class="star-block">
+                <div>
+                  <i class="fa fa-star full-star"></i>
+                  <i class="fa fa-star full-star"></i>
+                  <i class="fa fa-star full-star"></i>
+                  <i class="fa fa-star full-star"></i>
+                  <i class="fa fa-star full-star"></i>
+                </div>
+                <div>
+                  <p>$360.00</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Summer Addides Shoes</h5>
+                <p class="card-text">Curabitur ac mi sit amet diam luctus porta. Phasellus pulvinar sagittis diam, et scelerisque ipsum lobortis nec.</p>
+                <p class="review">Review (74)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Fim da seção produtos-->
+
+      <!--Início da seção de navegação-->
+      <section>
+        <div class="navegation-container">
+
+          <!--Bloco principal-->
+          <div class="main-block">
+            <div class="width-set">
+              <h3 class="font-green">Zay Shop</h3>
+              <hr>
+              <p class="prg-set"><i class="fa fa-map-marker icon-set"></i>  123 Consectetur at ligula 10660</p>
+              <p class="prg-set"><i class="fa fa-envelope"></i> 010-020-0340</p>
+              <p class="prg-set"><i class="fa fa-phone"></i> info@company.com</p>
+            </div>
+            <div class="width-set">
+              <h3>Products</h3>
+              <hr>
+              <p class="prg-set">Luxury</p>
+              <p class="prg-set">Sport Wear</p>
+              <p class="prg-set">Men's Shoes</p>
+              <p class="prg-set">Women's Shoes</p>
+              <p class="prg-set">Popular Dress</p>
+              <p class="prg-set">Gym Accessories</p>
+              <p class="prg-set">Sport Shoes</p>
+            </div>
+            <div class="width-set">
+              <h3>Further Info</h3>
+              <hr>
+              <p class="prg-set"><a class="prg-set" href="">Home</a></p>
+              <p class="prg-set"><a class="prg-set" href="">About us</a></p>
+              <p class="prg-set"><a class="prg-set" href="">Shop Locations</a></p>
+              <p class="prg-set"><a class="prg-set" href="">FAQs</a></p>
+              <p class="prg-set"><a class="prg-set" href="">Contact</a></p>
+            </div>
+          </div>
+
+          <!--Bloco separador-->
+          <div>
+            <hr class="prg-set">
+          </div>
+
+          <!--Bloco de subscrição-->
+          <div class="subs-block">
+            <div>
+              <a class="prg-set icon-set" href=""><i class="fa fa-facebook fa-lg"></i></a>
+              <a class="prg-set" href=""><i class="fa fa-instagram fa-lg"></i></a>
+              <a class="prg-set" href=""><i class="fa fa-twitter fa-lg"></i></i></a>
+              <a class="prg-set" href=""><i class="fa fa-linkedin-square fa-lg"></i></a>
+            </div>
+            <div>
+              <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Email Address" aria-label="Search">
+                <button class="btn btn-success my-2 my-sm-0 " type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+
+          <!--Rodapé-->
+          <footer>
+            <p>Copyright © 2021 Company Name | Designed by <span class="font-green underline">TemplateMo</span></p>
+          </footer>
+        </div>
+      </section>
+      <!--Fim da seção de navegação-->
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="" async defer></script>
+    </body>
+</html>
